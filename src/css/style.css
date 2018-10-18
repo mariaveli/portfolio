@@ -1,0 +1,322 @@
+body {
+    font-family: 'K2D', sans-serif;
+}
+
+hr {
+    color: #EEEEEE;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    margin: 5px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    background-color: #E5E5E5;
+    color: #44474c;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #44474c;
+    margin: 5px;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    padding: 0 !important;
+}
+
+
+#myTab {
+    background-color: #bfc4cc;
+}
+
+.nav-item:active {
+    background-color: #CDCDCD;
+}
+
+.nav {
+    padding-bottom: 55px;
+    background-color: #bfc4cc;
+    height: 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.obj-al-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.obj-al-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*.obj-al{*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+
+
+/*BODY*/
+
+.portfolio{
+    margin-top: 55px;
+}
+#title {
+    color: #000000;
+    background: #bfc4cc;
+    opacity: .9;
+    z-index: +1;
+    height: 200px;
+    width: 500px;
+}
+
+
+
+.infoName {
+    padding: 10px;
+    height: 100vh;
+    weight: 100%;
+    background-size: 100%;
+    background: url('https://softdev.expert-bg.org/wp-content/uploads/sites/7/2017/01/JSP.jpg') no-repeat center center fixed;
+
+}
+
+#contact {
+    height: 100vh;
+    weight: 100%;
+    background: url("https://www.muralswallpaper.com/app/uploads/deep-blue-clouded-marble-textures-plain.jpg") no-repeat center fixed;
+}
+
+#skills-div {
+    padding: 10px;
+    height: 100vh;
+    weight: 100%;
+
+}
+
+#cert-div, #skill-div {
+    width: 500px;
+    height: 400px;
+    background: #bfc4cc;
+    opacity: .9;
+    z-index: +1;
+}
+
+
+.projects {
+    height: 100vh;
+    weight: 100%;
+    background-size: 100%;
+    background: url('http://rowingsicilia.org/wp-content/uploads/2016/01/background.jpg') no-repeat center center fixed;
+}
+
+.tab-pane{
+    margin-top: 100px !important;
+}
+#social {
+    border: #000000;
+    border-radius: 10%;
+    font-size: 35px;
+}
+
+/*tictactoe*/
+
+.activePlayer {
+    color: #920f0f;
+}
+
+.players {
+    color: #d8d8d8;
+    padding: 15px;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #44474c;
+    font-size: 50px;
+    background-color: Transparent;
+    color: #44474c;
+    cursor: pointer;
+}
+
+
+.boxy {
+    position: relative;
+    height: 150px;
+    width: 300px;
+    border-radius: 30px;
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+/*.buttonakia{*/
+/*border : none;*/
+/*background-color: Transparent;*/
+/*background-repeat:no-repeat;*/
+/*padding-left: 30px;*/
+/*padding-right: 30px;*/
+/*}*/
+.grid-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.resetButton {
+    border-radius: 30px;
+    border: 2px solid #44474c;
+    margin: 10px;
+    background-color: Transparent;
+    color: #44474c;
+}
+
+/*Calculator*/
+
+/*button*/
+
+.displayButtons {
+    width: 50px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #6d696a;
+    border-color: #382f31;
+    box-shadow: 2px 1px 1px 0.5px #382f31;
+    font-weight: bold;
+}
+
+#h6 {
+    text-align: center;
+    margin: 10px;
+}
+
+/*display*/
+
+#display-top {
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+/*display2*/
+
+#display-bottom {
+    margin-left: 5px;
+    margin-top: -25px;
+    text-align: right;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+#dis-but {
+    display: block;
+    position: static;
+    margin: 6%;
+}
+
+#calculus-pad {
+    width: 280px;
+    heigth: 1000px;
+    background-color: #b8bbc1;
+    border-radius: 20px;
+    box-shadow: 6px 10px 25px 8px #728482;
+    border: 2px solid #849b99;
+    /*margin: 100px;*/
+}
+
+/*sidepad*/
+.screen {
+    background-color: #cfd5d6;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px 2px #76797a inset;
+    border: 2px solid #76797a inset;
+    height: 58px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#zero {
+    width: 110px;
+}
+
+#equals {
+    height: 80px;
+    vertical-align: top;
+    display: inline !important;
+    position: absolute;
+}
+
+#clear, #delete {
+    background-color: #c60942;
+}
+
+/*drumpad*/
+
+#drum-machine {
+    background-color: #bfc4cc;
+    width: 800px;
+    height: 350px;
+    border: 8px solid #4cdd46;
+}
+
+.drum-pads {
+    width: 350px;
+    background-color: #bfc4cc;
+}
+
+#drum-pad-display {
+    background-color: #6d696a;
+    margin: 50px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    color: #4cdd46;
+}
+
+.drum-pad {
+    width: 100px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #6d696a;
+    border-color: #382f31;
+    box-shadow: 2px 1px 1px 0.5px #382f31;
+    font-weight: bold;
+    color: #4cdd46;
+}
+
+.react-switch {
+    vertical-align: middle;
+    margin-left: 4px;
+
+}
+
